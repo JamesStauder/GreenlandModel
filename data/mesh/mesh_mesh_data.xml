@@ -1,0 +1,33 @@
+<dolfin>
+	<mesh celltype="triangle" dim="2">
+		<vertices size="	12">
+			<vertex index="	0" x="	420335.594385	" y="	-1072655.17355	" z="0"/>
+			<vertex index="	1" x="	421321.820569	" y="	-1093251.00452	" z="0"/>
+			<vertex index="	2" x="	410133.487865	" y="	-1113940.67044	" z="0"/>
+			<vertex index="	3" x="	429076.936985	" y="	-1135861.80466	" z="0"/>
+			<vertex index="	4" x="	444542.389278	" y="	-1100224.02329	" z="0"/>
+			<vertex index="	5" x="	436822.231981	" y="	-1118013.95303	" z="0"/>
+			<vertex index="	6" x="	391421.922708	" y="	-1078034.46131	" z="0"/>
+			<vertex index="	7" x="	373266.826539	" y="	-1108965.36589	" z="0"/>
+			<vertex index="	8" x="	383584.969825	" y="	-1123754.70691	" z="0"/>
+			<vertex index="	9" x="	394065.020231	" y="	-1097588.83187	" z="0"/>
+			<vertex index="	10" x="	411221.82472	" y="	-1136872.47127	" z="0"/>
+			<vertex index="	11" x="	393439.155616	" y="	-1137879.03757	" z="0"/>
+		</vertices>
+		<cells size="	13">
+			<triangle index="	0" v0="	2" v1="	8" v2="	11"/>
+			<triangle index="	1" v0="	5" v1="	2" v2="	3"/>
+			<triangle index="	2" v0="	10" v1="	2" v2="	11"/>
+			<triangle index="	3" v0="	2" v1="	10" v2="	3"/>
+			<triangle index="	4" v0="	8" v1="	9" v2="	7"/>
+			<triangle index="	5" v0="	9" v1="	8" v2="	2"/>
+			<triangle index="	6" v0="	0" v1="	1" v2="	4"/>
+			<triangle index="	7" v0="	1" v1="	5" v2="	4"/>
+			<triangle index="	8" v0="	5" v1="	1" v2="	2"/>
+			<triangle index="	9" v0="	1" v1="	9" v2="	2"/>
+			<triangle index="	10" v0="	9" v1="	6" v2="	7"/>
+			<triangle index="	11" v0="	6" v1="	1" v2="	0"/>
+			<triangle index="	12" v0="	1" v1="	6" v2="	9"/>
+		</cells>
+	</mesh>
+</dolfin>
