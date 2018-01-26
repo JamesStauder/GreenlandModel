@@ -1,0 +1,63 @@
+Python Interactive Tool
+
+INTRODUCTION:
+This tool was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana. 
+It has been expanded on and maintained by James Stauder, with the guidance of Dr. Jesse Johnson.
+
+DEPENDENCIES:
+
+PYTHON 2.7
+
+FENICS
+$sudo add-apt-repository ppa:fenics-packages/fenics  
+$sudo apt-get update  
+$sudo apt-get install --no-install-recommends fenics   
+$sudo apt-get dist-upgrade  
+
+PYLAB
+$sudo apt-get install python-numpy python-scipy python-matplotlib
+
+PYQTGRAPH
+$sudo pip instlal pyqtgraph
+
+H5PY
+$sudo pip install h5py
+
+PYQT4 - NEEDS TO BE 4 NOT 5
+$apt-cache search pyqt
+$sudo apt-get install python-qt4
+
+PYDISTMESH
+$sudo pip install PyDistMesh
+
+Reference:
+P.-O. Persson, G. Strang, A Simple Mesh Generator in MATLAB. SIAM Review, Volume 46 (2), pp. 329-345, June 2004
+
+
+DATA:
+TODO: ADD LINK TO DATA
+Colormap and all data need to be uploaded to the .data directory
+All data is the dataset with all the underlying data. It is an hdf5 file with the velocity, surface, bed etc. data as numpy arrays. The currently available dataset have a larger resolution ~900m. A larger dataset with 150m resolution will be available soon.
+
+The colormap data file is also a hdf5 file but the data are 8bit length 3 RGB arrays. There is a colormap for each of the underlying data sets. The colormaps are full resolution so the file size is 3 GB.
+
+
+ACKNOWLEDGEMENTS:
+
+Velocity Data:
+J. Mouginot
+Jeremie Mouginot, Eric Rignot, Bernd Scheuchl, and Romain Millan, Comprehensive Annual Ice Sheet Velocity Mapping Using Landsat-8, Sentinel-1, and RADARSAT-2 Data, Remote Sensing 2017, 9(4), 364; doi:10.3390/rs9040364, http://www.mdpi.com/2072-4292/9/4/364
+Department of Earth System Science, University of California, Irvine
+
+SMB, t2m Data: 
+Brice Noël
+Institute for Marine and Atmospheric Research (IMAU)
+Utrecht University
+
+Surface, bed, and thickness data: 
+Mathieu Morlighem
+BedMachine Greenland
+Department of Earth System Science, University of California Irvine
+M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised submarine glacial valleys beneath the Greenland Ice Sheet, Nat. Geosci., 7, 418-422, 2014, doi:10.1038/ngeo2167, http://www.nature.com/ngeo/journal/vaop/ncurrent/full/ngeo2167.html
+
+TODO: Describe interface
